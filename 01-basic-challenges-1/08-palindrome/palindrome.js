@@ -2,7 +2,7 @@ function isPalindrome(inp) {
     let str = "" + inp;
     let i = 0;
     let j = str.length - 1;
-    while (i <= i) {
+    while (i <= j) {
         if (str[i] === str[j]) {
             i++;
             j--;
@@ -15,6 +15,6 @@ function isPalindrome(inp) {
 
 }
 
-// console.log(isPalindrome(13231));
+// console.log(isPalindrome(132231));
 
-module.exports = isPalindrome;
+// module.exports = isPalindrome;
